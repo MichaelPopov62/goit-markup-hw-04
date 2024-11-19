@@ -36,6 +36,7 @@ a {
 img {
   display: block;
 }
+
 .team-img {
   max-width: 100%;
 }
@@ -237,11 +238,9 @@ img {
 .team-list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc ((100% - 3 * 24)/4);
 }
 .persona {
   padding-top: 32px;
-  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -259,6 +258,27 @@ img {
   text-align: center;
   color: #434455;
 }
+.massangers {
+  display: flex;
+  gap: 24px;
+}
+.massanger-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.massanger-icons {
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
 /*portfolio*/
 .portfolio {
   padding: 120px 0;
@@ -331,4 +351,27 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-center {
+  display: flex;
+}
+.footer-container {
+  margin-right: 120px;
+  margin-left: 156px;
+}
+.wrapper {
+  width: 264px;
+  height: 112px;
+  margin-right: auto;
+}
+.massangers {
+  margin-top: 16px;
+}
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
