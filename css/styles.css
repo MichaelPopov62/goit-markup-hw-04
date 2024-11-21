@@ -303,7 +303,7 @@ img {
 .massangers {
   display: flex;
   gap: 24px;
-  margin-bottom: 32px;
+  margin: 8px 16px 32px;
   justify-content: center;
 }
 .massanger-item {
@@ -439,7 +439,7 @@ img {
   height: 112px;
   margin-right: auto;
 }
-.massangers {
+.massangers-footer {
   display: flex;
   gap: 16px;
   justify-content: flex-start;
