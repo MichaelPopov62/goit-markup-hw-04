@@ -440,7 +440,9 @@ img {
   margin-right: auto;
 }
 .massangers {
+  display: flex;
   gap: 16px;
+  justify-content: flex-start;
 }
 
 .name {
