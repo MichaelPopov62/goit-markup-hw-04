@@ -221,14 +221,6 @@ img {
 .desc-item {
   width: calc((100% - 72px) / 4);
 }
-.emblem {
-  display: flex;
-  gap: 24px;
-}
-.emblem-item {
-  width: 264px;
-  height: 112px;
-}
 .emblem-icon {
   margin: 24px 100px;
 }
