@@ -329,8 +329,8 @@ img {
   fill: #f4f4fd;
   border-radius: 50%;
 }
-.massanger-item :hover,
-.massanger-item :focus {
+.social-item:hover,
+.social-item:focus {
   background-color: #404bbf;
 }
 
@@ -487,8 +487,8 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
-.social :hover,
-.social :focus {
+.social:hover,
+.social:focus {
   background-color: #31d0aa;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
